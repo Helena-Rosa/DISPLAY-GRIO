@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.gridContainer{
+    display: grid;
+
+    grid-template-columns: repeat (3, 400px) ;
+    grid-template-rows: repeat (2, 400px) ;
+
+    gap: 10px 15px;
+
+    /* alinhar os elementos do grid */
+
+    /* alinhar no eixo horizontal */
+    justify-items: end;
+
+    /*  alinhar no eixo vertical */
+    align-items: stretch;
+}
+
+
+.gridItem{
+    background-color: rgba(18, 189, 236, 0.762);
+    /* padding: 20px; */
+    /* margin: 15px; */
+    
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{ */
+    /* height: 100vh;
+    background: #8ebfd4;
+    background: linear-gradient(90deg, rgba(142, 191, 212, 1) 0%, rgba(87, 199, 133, 0) 50%, rgba(237, 221, 83, 1) 100%), url(https://images.pexels.com/photos/30543135/pexels-photo-30543135.jpeg);
+    
+   
+    background-size: cover;
+   
+
+}
+
+
+.sol{
+    width: 200px;
+    height: 200px;
+    background: #c3b822;
+    background: radial-gradient(circle, yellow (251, 255, 0, 1 ) 0%, rgb(231, 231, 93) (54, 53, 47, 1) 100%);
+    border-radius: 50%;
+    box-shadow: rgba(255, 252, 127) 10px 5px 10px ;
+    position: absolute;
+    left: 800px;
+    top: 30px;
+
+}
+
+.nuvem1{
+    width: 250px;
+    height: 250px;
+    background: #849faa;
+    background: radial-gradient(circle, #849faa (251, 255, 0, 1) 0%, #88b0c1 (54, 53, 47, 1) 100%);
+    border-radius:50% ;
+    box-shadow: #8ebfd4 (255, 252, 127) 10px 5px 10px;
+    position: absolute;
+    right: 850px;
+    top:30px
+}
+
+
+
+
+.nuvem2{
+    width: 250px;
+    height: 250px;
+    background: #849faa;
+    background: radial-gradient(circle, #849faa (251, 255, 0, 1) 0%, #88b0c1 (54, 53, 47, 1) 100%);
+    border-radius:50% ;
+    box-shadow: #8ebfd4 (255, 252, 127) 10px 5px 10px;
+    position: absolute;
+    right: 850px;
+    top:30px
+} */
