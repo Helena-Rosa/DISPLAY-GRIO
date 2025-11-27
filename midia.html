@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    body{
+        background-color: aquamarine ;
+
+    }
+
+    .container-01{
+        width: 370px;
+        height: 500px;
+        background-color: blueviolet;
+        border-radius: 3px solid red;
+
+    }
+    @media(max-width:400px){
+        body {
+            background-color: rgb(255, 0, 166); 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+    }
+
+    @media(min-width:768px){
+        body {
+            background-color: aqua; 
+
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="container-01"></div>
+    
+</body>
+</html>
